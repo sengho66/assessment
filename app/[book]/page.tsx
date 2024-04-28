@@ -1,4 +1,5 @@
-import styles from ".././page.module.css";
+import React from "react";
+import styles from "../page.module.css";
 import Badge from "../components/badge";
 import { getBooks } from "../utils";
 interface Props {

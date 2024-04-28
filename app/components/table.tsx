@@ -12,6 +12,7 @@ import {
 import { Books } from "../types";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 function Table({ books }: { books: Books }) {
   const booksList = books.data;
