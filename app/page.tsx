@@ -1,3 +1,4 @@
+import React from "react";
 import Table from "./components/table";
 import styles from "./page.module.css";
 import { getBooks } from "./utils";
